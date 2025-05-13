@@ -1,0 +1,653 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\highsolution\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\highsolution\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\migrations\\202312252031507_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:migrations\\202312252031507_1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\migrations\\202312241456237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:migrations\\202312241456237_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\highsolution\\properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:properties\\resources.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA70918-017D-49EB-8C12-A30C3EC9D8EC}|..\\BLL\\BLL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\bll\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB62807-53E1-43EA-9AC8-256360A6C949}|..\\DAL\\DAL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\dal\\zcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB62807-53E1-43EA-9AC8-256360A6C949}|..\\DAL\\DAL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\dal\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB62807-53E1-43EA-9AC8-256360A6C949}|..\\DAL\\DAL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\dal\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB62807-53E1-43EA-9AC8-256360A6C949}|..\\DAL\\DAL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\dal\\migrations\\configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB62807-53E1-43EA-9AC8-256360A6C949}|..\\DAL\\DAL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\dal\\migrations\\202504281503005_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA70918-017D-49EB-8C12-A30C3EC9D8EC}|..\\BLL\\BLL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\bll\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CA70918-017D-49EB-8C12-A30C3EC9D8EC}|..\\BLL\\BLL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\bll\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544C1FC4-C9D3-4B7D-9AAF-17FA928F3909}|..\\Interfaces\\Interfaces.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\interfaces\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544C1FC4-C9D3-4B7D-9AAF-17FA928F3909}|..\\Interfaces\\Interfaces.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\interfaces\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544C1FC4-C9D3-4B7D-9AAF-17FA928F3909}|..\\Interfaces\\Interfaces.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\interfaces\\dto\\clientdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544C1FC4-C9D3-4B7D-9AAF-17FA928F3909}|..\\Interfaces\\Interfaces.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\interfaces\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{980456C9-2C4D-4D37-A775-FAD0EEFF5E85}|ApplicationCore{980456C9-2C4D-4D37-A775-FAD0EEFF5E85}|Interfaces||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\type_of_service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\executor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16644628-ABAA-4F90-87D1-3D985885173C}|..\\DomainModel\\DomainModel.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\domainmodel\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\views\\window_customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:views\\window_customer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\views\\login_reg_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:views\\login_reg_window.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\icons\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:icons\\logo.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EEB62807-53E1-43EA-9AC8-256360A6C949}|..\\DAL\\DAL.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\dal\\migrations\\202504281509403_initialcreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\views\\window_executor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:views\\window_executor.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\views\\login_reg_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{475DE359-218B-4222-8D52-529BCF353284}|HighSolution.csproj|solutionrelative:views\\login_reg_window.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\Configuration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DomainModel\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{544C1FC4-C9D3-4B7D-9AAF-17FA928F3909}|..\\Interfaces\\Interfaces.csproj|a:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\interfaces\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 113,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "packages.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:07:54.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Resources.resx",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Properties\\Resources.resx",
+              "RelativeDocumentMoniker": "Properties\\Resources.resx",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Properties\\Resources.resx",
+              "RelativeToolTip": "Properties\\Resources.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-13T13:04:40.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "packages.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\packages.config",
+              "RelativeDocumentMoniker": "..\\DAL\\packages.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\packages.config",
+              "RelativeToolTip": "..\\DAL\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:04:11.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\App.config",
+              "RelativeDocumentMoniker": "..\\DAL\\App.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\App.config",
+              "RelativeToolTip": "..\\DAL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:04:09.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "packages.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\BLL\\packages.config",
+              "RelativeDocumentMoniker": "..\\BLL\\packages.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\BLL\\packages.config",
+              "RelativeToolTip": "..\\BLL\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:03:54.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\BLL\\App.config",
+              "RelativeDocumentMoniker": "..\\BLL\\App.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\BLL\\App.config",
+              "RelativeToolTip": "..\\BLL\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:03:52.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\BLL\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\BLL\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\BLL\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\BLL\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:03:42.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "packages.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\packages.config",
+              "RelativeDocumentMoniker": "..\\Interfaces\\packages.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\packages.config",
+              "RelativeToolTip": "..\\Interfaces\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:03:34.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "App.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\App.config",
+              "RelativeDocumentMoniker": "..\\Interfaces\\App.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\App.config",
+              "RelativeToolTip": "..\\Interfaces\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:03:29.317Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ClientDTO.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\DTO\\ClientDTO.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\DTO\\ClientDTO.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\DTO\\ClientDTO.cs",
+              "RelativeToolTip": "..\\Interfaces\\DTO\\ClientDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:03:13.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\Interfaces\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\Interfaces\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:03:03.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Interfaces",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\Interfaces.csproj",
+              "RelativeDocumentMoniker": "..\\Interfaces\\Interfaces.csproj",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\Interfaces\\Interfaces.csproj",
+              "RelativeToolTip": "..\\Interfaces\\Interfaces.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-13T13:03:00.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Type_of_service.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Type_of_service.cs",
+              "RelativeDocumentMoniker": "..\\DomainModel\\Type_of_service.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Type_of_service.cs",
+              "RelativeToolTip": "..\\DomainModel\\Type_of_service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:02:57.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "packages.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\packages.config",
+              "RelativeDocumentMoniker": "..\\DomainModel\\packages.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\packages.config",
+              "RelativeToolTip": "..\\DomainModel\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:02:55.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Order.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Order.cs",
+              "RelativeDocumentMoniker": "..\\DomainModel\\Order.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Order.cs",
+              "RelativeToolTip": "..\\DomainModel\\Order.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA0wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:02:50.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Feedback.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Feedback.cs",
+              "RelativeDocumentMoniker": "..\\DomainModel\\Feedback.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Feedback.cs",
+              "RelativeToolTip": "..\\DomainModel\\Feedback.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:02:46.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Executor.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Executor.cs",
+              "RelativeDocumentMoniker": "..\\DomainModel\\Executor.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Executor.cs",
+              "RelativeToolTip": "..\\DomainModel\\Executor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:02:38.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Client.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Client.cs",
+              "RelativeDocumentMoniker": "..\\DomainModel\\Client.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Client.cs",
+              "RelativeToolTip": "..\\DomainModel\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:02:31.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\App.config",
+              "RelativeDocumentMoniker": "..\\DomainModel\\App.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\App.config",
+              "RelativeToolTip": "..\\DomainModel\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-13T13:02:25.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\DomainModel\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DomainModel\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "..\\DomainModel\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:02:11.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "202504281509403_InitialCreate1.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "RelativeToolTip": "..\\..\\..\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:09:42.9Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "202504281503005_InitialCreate.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "RelativeToolTip": "..\\..\\..\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:03:05.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\coursework\\DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "..\\..\\..\\coursework\\DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T15:02:39.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "App.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DomainModel\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\coursework\\DomainModel\\App.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\coursework\\DomainModel\\App.config",
+              "RelativeToolTip": "..\\..\\..\\coursework\\DomainModel\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-28T14:56:26.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-10T13:13:24.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login_Reg_Window.xaml",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Login_Reg_Window.xaml",
+              "RelativeDocumentMoniker": "Views\\Login_Reg_Window.xaml",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Login_Reg_Window.xaml",
+              "RelativeToolTip": "Views\\Login_Reg_Window.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-10T13:13:56.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "logo.png",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Icons\\logo.png",
+              "RelativeDocumentMoniker": "Icons\\logo.png",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Icons\\logo.png",
+              "RelativeToolTip": "Icons\\logo.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2025-05-10T15:37:34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "zContext.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\zContext.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\zContext.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\zContext.cs",
+              "RelativeToolTip": "..\\DAL\\zContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:11:01.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\Configuration.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "..\\DAL\\Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:10:17.445Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "202504281509403_InitialCreate1.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "RelativeToolTip": "..\\DAL\\Migrations\\202504281509403_InitialCreate1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:59:08.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "202504281503005_InitialCreate.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "RelativeToolTip": "..\\DAL\\Migrations\\202504281503005_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:59:06.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "202312241456237_InitialCreate.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Migrations\\202312241456237_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\202312241456237_InitialCreate.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Migrations\\202312241456237_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\202312241456237_InitialCreate.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAQwGQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:56:03.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "202312252031507_1.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Migrations\\202312252031507_1.cs",
+              "RelativeDocumentMoniker": "Migrations\\202312252031507_1.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Migrations\\202312252031507_1.cs",
+              "RelativeToolTip": "Migrations\\202312252031507_1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:55:59.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Configuration.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Migrations\\Configuration.cs",
+              "RelativeDocumentMoniker": "Migrations\\Configuration.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Migrations\\Configuration.cs",
+              "RelativeToolTip": "Migrations\\Configuration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:55:58.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Window_Executor.xaml",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Window_Executor.xaml",
+              "RelativeDocumentMoniker": "Views\\Window_Executor.xaml",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Window_Executor.xaml",
+              "RelativeToolTip": "Views\\Window_Executor.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-10T14:12:36.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Views\\Login_Reg_Window.xaml.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Login_Reg_Window.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\Login_Reg_Window.xaml.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Login_Reg_Window.xaml.cs",
+              "RelativeToolTip": "Views\\Login_Reg_Window.xaml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T14:08:11.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Window_Customer.xaml",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Window_Customer.xaml",
+              "RelativeDocumentMoniker": "Views\\Window_Customer.xaml",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Views\\Window_Customer.xaml",
+              "RelativeToolTip": "Views\\Window_Customer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-10T13:15:31.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T13:07:54.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.config",
+              "DocumentMoniker": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "A:\\3course\\\u0444\u043E\u043C\u0438\u043D\u0430\\\u043A\u0443\u0440\u0441\u0430\u0447\\coursework\\HighSolution\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-04-28T14:56:33.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
