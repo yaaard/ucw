@@ -14,6 +14,7 @@ namespace DomainModel
         public Order()
         {
             Type_of_service = new HashSet<Type_of_service>();
+            Messages = new HashSet<Message>();
         }
 
         public int Id { get; set; }
@@ -45,8 +46,9 @@ namespace DomainModel
 
         public virtual Feedback Feedback { get; set; }
 
-        
         public virtual ICollection<Type_of_service> Type_of_service { get; set; }
+
+        public virtual ICollection<Message> Messages { get; set; }
     }
     public enum Position
     {

@@ -17,6 +17,7 @@ namespace HighSolution.Views
         IClientService clientService1 = App.Kernel.Get<IClientService>();
         IExecutorService executorService1 = App.Kernel.Get<IExecutorService>();
         ITServiceService itService1 = App.Kernel.Get<ITServiceService>();
+        IMessageService messageService1 = App.Kernel.Get<IMessageService>();
 
         public Login_Reg_Window()
         {
@@ -35,13 +36,13 @@ namespace HighSolution.Views
             Window window = null;
             if (user)
             {
-                window = new Window_Customer(orderService, clientService1, executorService1, itService1, ID_user); //Customer
+                window = new Window_Customer(orderService, clientService1, executorService1, itService1, messageService1, ID_user); //Customer
                 //Application.Current.MainWindow = window;
                // window.Show();
             }      
             else
             {
-                window = new Window_Executor(orderService, clientService1, executorService1, itService1, ID_user); // EXecutor
+                window = new Window_Executor(orderService, clientService1, executorService1, itService1, messageService1, ID_user); // EXecutor
                // window.Show();
             }
             ID_user = 0;
@@ -95,4 +96,3 @@ namespace HighSolution.Views
         }
     }
 }
-

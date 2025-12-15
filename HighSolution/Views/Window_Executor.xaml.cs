@@ -24,11 +24,16 @@ namespace HighSolution.Views
     /// </summary>
     public partial class Window_Executor : Window
     {
-        public Window_Executor(IOrderService orderService, IClientService eclientService,IExecutorService eexecutorService, ITServiceService itService1, int iD_user)
+        public Window_Executor(IOrderService orderService, IClientService eclientService,IExecutorService eexecutorService, ITServiceService itService1, IMessageService messageService, int iD_user)
         {
             InitializeComponent();
-            DataContext = new ViewModel_Executor(this, orderService, eclientService, eexecutorService, itService1, iD_user);
+            DataContext = new ViewModel_Executor(this, orderService, eclientService, eexecutorService, itService1, messageService, iD_user);
             
+        }
+
+        private void DataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }

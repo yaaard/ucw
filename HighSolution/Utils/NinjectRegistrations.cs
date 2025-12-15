@@ -15,6 +15,7 @@ namespace HighSolution.Utils
             Bind<IClientService>().To<ClientService>();
             //Bind<IBookingService>().To<BookingService>();
             Bind<ITServiceService>().To<TServiceService>();
+            Bind<IMessageService>().To<MessageService>();
             //Bind<IServiceBookingService>().To<ServiceBookingService>();
         }
     }

@@ -14,10 +14,10 @@ namespace HighSolution.Views
     /// </summary>
     public partial class Window_Customer : Window
     {
-        public Window_Customer(IOrderService orderService, IClientService clientService, IExecutorService executorService, ITServiceService itService,  int ID_user)
+        public Window_Customer(IOrderService orderService, IClientService clientService, IExecutorService executorService, ITServiceService itService, IMessageService messageService,  int ID_user)
         {
            InitializeComponent();
-            DataContext = new ViewModel_Customer(this, orderService, clientService, executorService, itService, ID_user);
+            DataContext = new ViewModel_Customer(this, orderService, clientService, executorService, itService, messageService, ID_user);
         }
 
         //private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)

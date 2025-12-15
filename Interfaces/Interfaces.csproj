@@ -61,6 +61,7 @@
     <Compile Include="DTO\ClientDTO.cs" />
     <Compile Include="DTO\ExecutorDTO.cs" />
     <Compile Include="DTO\FeedbackDTO.cs" />
+    <Compile Include="DTO\MessageDTO.cs" />
     <Compile Include="DTO\OrderDTO.cs" />
     <Compile Include="DTO\Reports.cs" />
     <Compile Include="DTO\Type_of_serviceDTO.cs" />
@@ -70,6 +71,7 @@
     <Compile Include="Repository\IRepository.cs" />
     <Compile Include="Services\IClientService.cs" />
     <Compile Include="Services\IExecutorService.cs" />
+    <Compile Include="Services\IMessageService.cs" />
     <Compile Include="Services\IOrderService.cs" />
     <Compile Include="Services\IReportService.cs" />
     <Compile Include="Services\ITServiceService.cs" />

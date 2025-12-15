@@ -85,18 +85,15 @@
     </ApplicationDefinition>
     <Compile Include="Infrastructure\Commands\Base\Command.cs" />
     <Compile Include="Infrastructure\Commands\RelayCommand.cs" />
-    <Compile Include="Migrations\202312241456237_InitialCreate.cs" />
-    <Compile Include="Migrations\202312241456237_InitialCreate.designer.cs">
-      <DependentUpon>202312241456237_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202312252031507_1.cs" />
-    <Compile Include="Migrations\202312252031507_1.designer.cs">
-      <DependentUpon>202312252031507_1.cs</DependentUpon>
+    <Compile Include="Migrations\202511251708292_InitialCreate.cs" />
+    <Compile Include="Migrations\202511251708292_InitialCreate.Designer.cs">
+      <DependentUpon>202511251708292_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Model_Client.cs" />
     <Compile Include="Models\Model_Customer.cs" />
     <Compile Include="Models\Model_Executor.cs" />
+    <Compile Include="Models\Model_ChatMessage.cs" />
     <Compile Include="Models\Model_Order.cs" />
     <Compile Include="Models\Model_OrderExecutorEntity.cs" />
     <Compile Include="Models\Model_ServiceForOrder.cs" />
@@ -149,11 +146,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <EmbeddedResource Include="Migrations\202312241456237_InitialCreate.resx">
-      <DependentUpon>202312241456237_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202312252031507_1.resx">
-      <DependentUpon>202312252031507_1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202511251708292_InitialCreate.resx">
+      <DependentUpon>202511251708292_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -78,6 +78,102 @@
 
             </TabItem>
 
+            <TabItem Width="Auto">
+                <TabItem.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <materialDesign:PackIcon Kind="ChatOutline" Width="20" Height="20" Margin="0,0,10,0"/>
+                        <TextBlock Text="Чат"/>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid Background="{StaticResource YourImageBrushKey}">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition Width="3*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="8*"/>
+                        <RowDefinition Height="1*"/>
+                    </Grid.RowDefinitions>
+
+                    <StackPanel Grid.Column="0" Grid.RowSpan="2" Margin="20">
+                        <TextBlock Text="Заказы в работе" FontWeight="Bold" Foreground="White" Margin="0,0,0,10"/>
+                        <DataGrid AutoGenerateColumns="False"
+                      ItemsSource="{Binding OrdersInProgress}"
+                      SelectedItem="{Binding SelectedOrderForChat, Mode=TwoWay}"
+                      IsReadOnly="True" SelectionMode="Single" SelectionUnit="FullRow"
+                      Margin="0,0,0,10">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Binding="{Binding time_order}" Header="Дата заказа" Width="171"/>
+                                <DataGridTextColumn Binding="{Binding general_budget}" Header="Бюджет" Width="100"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Button Content="Показать заказы" Command="{Binding InProgressCommand}" HorizontalAlignment="Left"/>
+                    </StackPanel>
+
+                    <Border Grid.Column="1" Grid.RowSpan="2" Margin="20" Background="#CCFFFFFF" CornerRadius="8">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="Auto"/>
+                            </Grid.RowDefinitions>
+
+                            <ListBox ItemsSource="{Binding ChatMessages}" Grid.Row="0" Margin="10" BorderThickness="0">
+                                <ListBox.ItemContainerStyle>
+                                    <Style TargetType="ListBoxItem">
+                                        <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsMine}" Value="True">
+                                                <Setter Property="HorizontalContentAlignment" Value="Right"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </ListBox.ItemContainerStyle>
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Padding="8" Margin="0,4" CornerRadius="6">
+                                            <Border.Style>
+                                                <Style TargetType="Border">
+                                                    <Setter Property="Background" Value="#FFECECEC"/>
+                                                    <Setter Property="BorderBrush" Value="#FFCCCCCC"/>
+                                                    <Setter Property="BorderThickness" Value="1"/>
+                                                    <Style.Triggers>
+                                                        <DataTrigger Binding="{Binding IsMine}" Value="True">
+                                                            <Setter Property="Background" Value="#FFB3E5FC"/>
+                                                            <Setter Property="BorderBrush" Value="#FF81D4FA"/>
+                                                        </DataTrigger>
+                                                    </Style.Triggers>
+                                                </Style>
+                                            </Border.Style>
+                                            <StackPanel>
+                                                <TextBlock Text="{Binding Author}" FontWeight="Bold" Foreground="Gray"/>
+                                                <TextBlock Text="{Binding Text}" TextWrapping="Wrap" Foreground="Black"/>
+                                                <TextBlock Text="{Binding SentAt, StringFormat=HH:mm}" HorizontalAlignment="Right" FontSize="10" Foreground="Gray"/>
+                                            </StackPanel>
+                                        </Border>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                            </ListBox>
+
+                            <Grid Grid.Row="1" Margin="10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <TextBox Grid.Column="0"
+                             MinHeight="40"
+                             Text="{Binding NewChatMessageText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                             materialDesign:HintAssist.Hint="Введите сообщение"/>
+                                <Button Grid.Column="1"
+                            Content="Отправить"
+                            Command="{Binding SendMessageCommand}"
+                            Margin="8,0,0,0"
+                            MinWidth="100"/>
+                            </Grid>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </TabItem>
 
             <TabItem Width="Auto">
                 <TabItem.Header>

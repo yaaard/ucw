@@ -17,6 +17,7 @@ namespace DomainModel
         public virtual DbSet<Feedback> zcontextFeedback { get; set; }
         public virtual DbSet<Order> zcontextOrder { get; set; }
         public virtual DbSet<Type_of_service> zcontextType_of_service { get; set; }
+        public virtual DbSet<Message> zcontextMessage { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -40,6 +41,12 @@ namespace DomainModel
                 .HasMany(e => e.Type_of_service)
                 .WithOptional(e => e.Order)
                 .HasForeignKey(e => e.Order_Id);
+
+            modelBuilder.Entity<Order>()
+                .HasMany(e => e.Messages)
+                .WithRequired(e => e.Order)
+                .HasForeignKey(e => e.OrderId)
+                .WillCascadeOnDelete(true);
         }
     }
 }

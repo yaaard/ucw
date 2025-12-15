@@ -13,6 +13,7 @@ namespace DAL.Repository
         private ReportRepositorySQL reportRepository;
         private ClientReposSQL clientRepos;
         private ExecutorReposSQL executorRepos;
+        private MessageRepositorySQL messageRepository;
 
         public DbReposSQL()
         {
@@ -34,6 +35,16 @@ namespace DAL.Repository
                 if (executorRepos == null)
                     executorRepos = new ExecutorReposSQL(db);
                 return executorRepos;
+            }
+        }
+
+        public IRepository<Message> Messages
+        {
+            get
+            {
+                if (messageRepository == null)
+                    messageRepository = new MessageRepositorySQL(db);
+                return messageRepository;
             }
         }
 

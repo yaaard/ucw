@@ -34,6 +34,7 @@ namespace HighSolution.ViewModels
         private readonly IClientService _clientService;
         private readonly IExecutorService _executorService;
         private readonly ITServiceService _itService;
+        private readonly IMessageService _messageService;
         private readonly Window_Customer _wnd;
         private int _id = 0;
 
@@ -95,6 +96,16 @@ namespace HighSolution.ViewModels
                 if (!Set(ref _addServiceCommand, value)) return;
             }
         }
+
+        private ICommand _sendMessageCommand;
+        public ICommand SendMessageCommand
+        {
+            get { return _sendMessageCommand; }
+            set
+            {
+                if (!Set(ref _sendMessageCommand, value)) return;
+            }
+        }
         private List<Model_OrdersForHistory> _ordersForHistory;
         public List<Model_OrdersForHistory> OrdersForHistories
         {
@@ -128,10 +139,85 @@ namespace HighSolution.ViewModels
                 if (!Set(ref _ordersInProgress, value)) return;
             }
         }
+
+        private ObservableCollection<Model_ChatMessage> _chatMessages;
+        public ObservableCollection<Model_ChatMessage> ChatMessages
+        {
+            get => _chatMessages;
+            set
+            {
+                if (!Set(ref _chatMessages, value)) return;
+            }
+        }
+
+        private Model_OrdersForHistory _selectedOrderForChat;
+        public Model_OrdersForHistory SelectedOrderForChat
+        {
+            get => _selectedOrderForChat;
+            set
+            {
+                if (!Set(ref _selectedOrderForChat, value)) return;
+                LoadMessagesForSelectedOrder();
+            }
+        }
+
+        private string _newChatMessageText;
+        public string NewChatMessageText
+        {
+            get => _newChatMessageText;
+            set
+            {
+                if (!Set(ref _newChatMessageText, value)) return;
+            }
+        }
+
+        private void LoadMessagesForSelectedOrder()
+        {
+            if (SelectedOrderForChat == null)
+            {
+                ChatMessages = new ObservableCollection<Model_ChatMessage>();
+                return;
+            }
+
+            var messages = _messageService.GetMessagesForOrder(SelectedOrderForChat.Id)
+                .Select(m => new Model_ChatMessage
+                {
+                    Text = m.Text,
+                    SentAt = m.SentAt,
+                    IsMine = m.FromClient,
+                    Author = m.FromClient ? "Вы" : "Исполнитель"
+                });
+
+            ChatMessages = new ObservableCollection<Model_ChatMessage>(messages);
+        }
+
+        private void SendChatMessage(object obj)
+        {
+            if (SelectedOrderForChat == null)
+            {
+                MessageBox.Show("Выберите заказ в таблице для переписки.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(NewChatMessageText))
+                return;
+
+            try
+            {
+                _messageService.SendMessage(SelectedOrderForChat.Id, NewChatMessageText, true);
+                NewChatMessageText = string.Empty;
+                LoadMessagesForSelectedOrder();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Не удалось отправить сообщение: " + ex.Message);
+            }
+        }
         private void SearchInProgressOrders(object obj)
         {
 
             OrdersInProgress = ConvertDataOrderView(_orderService.GetInProgressOrders(_id));
+            SelectedOrderForChat = OrdersInProgress?.FirstOrDefault();
         }
 
         private List<Model_OrdersForHistory> ConvertDataOrderView(List<OrderDTO> orders)
@@ -152,7 +238,7 @@ namespace HighSolution.ViewModels
 
 
 
-        public ViewModel_Customer(Window_Customer thisWindow, IOrderService orderService, IClientService clientService, IExecutorService executorService, ITServiceService _itServiceService, int ID_user) 
+        public ViewModel_Customer(Window_Customer thisWindow, IOrderService orderService, IClientService clientService, IExecutorService executorService, ITServiceService _itServiceService, IMessageService messageService, int ID_user) 
         {
             addDescriptionForService = "";
             _wnd = thisWindow;
@@ -161,6 +247,8 @@ namespace HighSolution.ViewModels
             _clientService = clientService;
             _executorService = executorService;
             _itService = _itServiceService;
+            _messageService = messageService;
+            ChatMessages = new ObservableCollection<Model_ChatMessage>();
             LoadProfile();
             LoadAllTServices();
 
@@ -171,11 +259,13 @@ namespace HighSolution.ViewModels
             PushServiceCommand = new RelayCommand(Save);
 
             AddOneServiceCommand = new RelayCommand(param => AddTService((int)param), null);
+            SendMessageCommand = new RelayCommand(SendChatMessage);
             
            // AddOrderCommand = new RelayCommand();
 
             StartDate = new DateTime(2023, 12, 20);
             EndDate = new DateTime(2023, 12, 31);
+            SearchInProgressOrders(null);
         }
      
         public Model_Order Model_PushOrderFOR { get; set; }

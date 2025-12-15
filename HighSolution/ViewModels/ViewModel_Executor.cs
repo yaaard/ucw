@@ -45,6 +45,7 @@ namespace HighSolution.ViewModels
         private readonly IOrderService _orderService;
         private readonly IClientService _clientService;
         private readonly IExecutorService _executorService;
+        private readonly IMessageService _messageService;
 
         private List<OrderDTO> orderDTOs;
         private List<ExecutorDTO> execDTOs;
@@ -79,16 +80,28 @@ namespace HighSolution.ViewModels
             }
         }
 
+        private ICommand _sendMessageCommand;
+        public ICommand SendMessageCommand
+        {
+            get { return _sendMessageCommand; }
+            set
+            {
+                if (!Set(ref _sendMessageCommand, value)) return;
+            }
+        }
 
 
 
-        public ViewModel_Executor (Window_Executor thisWindow, IOrderService orderService, IClientService clientService, IExecutorService executorService, ITServiceService itService1, int ID_user)
+
+        public ViewModel_Executor (Window_Executor thisWindow, IOrderService orderService, IClientService clientService, IExecutorService executorService, ITServiceService itService1, IMessageService messageService, int ID_user)
         {
             _wnd = thisWindow;
             _id = ID_user;
             _orderService = orderService;
             _clientService = clientService;
             _executorService = executorService;
+            _messageService = messageService;
+            ChatMessages = new ObservableCollection<Model_ChatMessage>();
 
             
             LoadAllOrders();
@@ -99,6 +112,9 @@ namespace HighSolution.ViewModels
             AddOrderCommand = new RelayCommand(param => AddOrder((int)param), null);
             RejectOrderCommand = new RelayCommand(param => RejectOrder((int)param), null);
             FinishedOrderCommand = new RelayCommand(param => FinishOrder((int)param), null);
+            SendMessageCommand = new RelayCommand(SendChatMessage);
+
+            SelectedAppliedForChat = AplliedOrdersForExecutor.FirstOrDefault();
         }
 
         private void LoadHistory()
@@ -192,6 +208,82 @@ namespace HighSolution.ViewModels
                 temp.Order = emp;
                 temp.Client = _clientService.GetClient(emp.client_ID);
                 AplliedOrdersForExecutor.Add(temp);
+            }
+            SelectedAppliedForChat = AplliedOrdersForExecutor.FirstOrDefault();
+        }
+
+        private ObservableCollection<Model_ChatMessage> _chatMessages;
+        public ObservableCollection<Model_ChatMessage> ChatMessages
+        {
+            get => _chatMessages;
+            set
+            {
+                if (!Set(ref _chatMessages, value)) return;
+            }
+        }
+
+        private Model_OrderExecutorEntity _selectedAppliedForChat;
+        public Model_OrderExecutorEntity SelectedAppliedForChat
+        {
+            get => _selectedAppliedForChat;
+            set
+            {
+                if (!Set(ref _selectedAppliedForChat, value)) return;
+                LoadMessagesForSelectedOrder();
+            }
+        }
+
+        private string _newChatMessageText;
+        public string NewChatMessageText
+        {
+            get => _newChatMessageText;
+            set
+            {
+                if (!Set(ref _newChatMessageText, value)) return;
+            }
+        }
+
+        private void LoadMessagesForSelectedOrder()
+        {
+            if (SelectedAppliedForChat == null)
+            {
+                ChatMessages = new ObservableCollection<Model_ChatMessage>();
+                return;
+            }
+
+            var messages = _messageService.GetMessagesForOrder(SelectedAppliedForChat.Order.Id)
+                .Select(m => new Model_ChatMessage
+                {
+                    Text = m.Text,
+                    SentAt = m.SentAt,
+                    IsMine = !m.FromClient,
+                    Author = m.FromClient ? "Заказчик"    // если сообщение от клиента
+                                  : "Вы"
+                });
+
+            ChatMessages = new ObservableCollection<Model_ChatMessage>(messages);
+        }
+
+        private void SendChatMessage(object obj)
+        {
+            if (SelectedAppliedForChat == null)
+            {
+                MessageBox.Show("Выберите заказ в таблице для переписки.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(NewChatMessageText))
+                return;
+
+            try
+            {
+                _messageService.SendMessage(SelectedAppliedForChat.Order.Id, NewChatMessageText, false);
+                NewChatMessageText = string.Empty;
+                LoadMessagesForSelectedOrder();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Не удалось отправить сообщение: " + ex.Message);
             }
         }
 
